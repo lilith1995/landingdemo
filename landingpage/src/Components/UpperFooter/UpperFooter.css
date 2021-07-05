@@ -1,0 +1,28 @@
+.upper-footer {
+    width: 98%;
+    height: 48vh;
+    background-color: rgb(221, 224, 255);
+    padding: 1%;
+}
+
+.upper-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.inOrbiter {
+    color: rgb(79, 82, 98);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.inDataRevolution {
+    font-size: 20px;
+    color: rgb(79, 82, 98);
+}
+
+.app-form {
+    margin: 0 auto;
+}

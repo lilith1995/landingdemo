@@ -1,0 +1,76 @@
+div.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+    padding: 0 15%;
+}
+
+div.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.navbar nav .navbar-right-links a:first-of-type {
+    margin-right: 20px;
+    cursor: pointer;
+}
+div.navbar nav .navbar-right-links a:last-of-type{
+    cursor: pointer;
+}
+
+div.navbar nav a img {
+    height: 45px;
+}
+
+div.header-section {
+    min-height: 500px;
+    padding: 100px 2% 50px 15%;
+    background: linear-gradient(to bottom right, #312DF6, #222869 90%);
+    display: flex;
+    flex-direction: row
+}
+
+div.header-right-image,
+div.header-left-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.header-right-image img {
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+div.header-left-text .header-text {
+    width: 80%;
+}
+
+div.header-left-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: .7px;
+    margin-bottom: 16px;
+}
+
+div.header-left-text p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+}

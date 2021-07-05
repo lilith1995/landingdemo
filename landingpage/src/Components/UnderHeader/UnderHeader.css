@@ -1,0 +1,39 @@
+.app-underHeader {
+    width: 98%;
+    height: 34vh;
+    background-color: rgb(221, 224, 255);
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    color: rgb(44, 46, 59);
+    font-size: 22px;
+}
+
+.Trusted {
+    text-align: center;
+}
+
+.fourPics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstPic {
+    width: 245px;
+}
+
+.secondPic {
+    width: 150px;
+}
+
+.thirdPic {
+    width: 245px;
+}
+
+.fourtPic {
+    width: 150px;
+}
